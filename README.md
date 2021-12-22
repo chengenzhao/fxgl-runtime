@@ -9,5 +9,7 @@ You may use this project and github action to generate fxgl runtime e.g. macosxr
 then download this zip from github action and then unzip it
 and java command is in bin directory
 then use it like
+```java
 macosxrt/bin/java -cp xtrike.jar com.whitewoodcity.xtrike.Main
+```
 then wolala you will see the nice game or javafx interface you build using FXGL, JavaFX, Kotlin etc.
