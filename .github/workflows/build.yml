@@ -28,7 +28,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: linuxrt
-          path: /home/runner/work/app/app/target/app.zip
+          path: /home/runner/work/fxgl-runtime/fxgl-runtime/target/app.zip
           retention-days: 1
 
   mac-build:
@@ -48,7 +48,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: macosxrt
-          path: /Users/runner/work/app/app/target/app.zip
+          path: /Users/runner/work/fxgl-runtime/fxgl-runtime/target/app.zip
           retention-days: 1
 
   win-build:
@@ -68,5 +68,5 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: windowsrt
-          path: D:\a\app\app\target\app.zip
+          path: D:\a\fxgl-runtime\fxgl-runtime\target\app.zip
           retention-days: 1
