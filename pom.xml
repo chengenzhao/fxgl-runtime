@@ -6,13 +6,13 @@
 
     <groupId>com.example</groupId>
     <artifactId>fxgl-runtime</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>fxgl-runtime</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>17</maven.compiler.release>
+        <maven.compiler.version>17</maven.compiler.version>
         <fxgl.version>17+dev-SNAPSHOT</fxgl.version>
         <compiler.plugin.version>3.8.1</compiler.plugin.version>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
@@ -31,16 +31,16 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>${compiler.plugin.version}</version>
                 <configuration>
-                    <source>17</source>
-                    <target>17</target>
+                    <source>${maven.compiler.version}</source>
+                    <target>${maven.compiler.version}</target>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
-                <version>0.0.8</version>
+                <version>${javafx.plugin.version}</version>
                 <executions>
                     <execution>
                         <!-- Default configuration for running with: mvn clean javafx:run -->
