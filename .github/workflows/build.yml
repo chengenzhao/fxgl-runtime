@@ -22,7 +22,7 @@ jobs:
         with:
           java-version: '17.0.1+12'
           distribution: 'adopt-hotspot'
-          cache: maven
+          check-latest: true
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v2
@@ -42,7 +42,7 @@ jobs:
         with:
           java-version: '17.0.1+12'
           distribution: 'adopt-hotspot'
-          cache: maven
+          check-latest: true
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v2
@@ -62,7 +62,7 @@ jobs:
         with:
           java-version: '17.0.1+12'
           distribution: 'adopt-hotspot'
-          cache: maven
+          check-latest: true
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v2
