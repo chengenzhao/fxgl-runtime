@@ -21,8 +21,7 @@ jobs:
         uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
-          #release: 18
-          version: latest
+          release: 18
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v2
@@ -41,7 +40,7 @@ jobs:
         uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
-          #release: 18
+          release: 18
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v2
@@ -60,7 +59,7 @@ jobs:
         uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
-          #release: 18
+          release: 18
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v2
