@@ -22,6 +22,7 @@ jobs:
         with:
           website: jdk.java.net
           #release: 18
+          version: latest
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v2
