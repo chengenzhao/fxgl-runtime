@@ -53,6 +53,7 @@
                             <noManPages>true</noManPages>
                             <stripDebug>true</stripDebug>
                             <noHeaderFiles>true</noHeaderFiles>
+                            <nativeImageArgs>-Dfile.encoding=UTF-8</nativeImageArgs>
                         </configuration>
                     </execution>
                 </executions>
