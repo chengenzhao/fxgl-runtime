@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.version>18</maven.compiler.version>
         <fxgl.version>17.1</fxgl.version>
-        <compiler.plugin.version>3.8.1</compiler.plugin.version>
+        <compiler.plugin.version>3.10.1</compiler.plugin.version>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
     </properties>
 
