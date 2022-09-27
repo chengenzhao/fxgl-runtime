@@ -45,25 +45,6 @@ jobs:
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v2
         with:
-          name: macosrt
-          path: /Users/runner/work/fxgl-runtime/fxgl-runtime/target/app.zip
-          retention-days: 1
-
-  mac-aarch64-build:
-
-    runs-on: [macOS, ARM64]
-
-    steps:
-      - uses: actions/checkout@v2
-      - name: Set up JDK
-        uses: oracle-actions/setup-java@v1
-        with:
-          website: jdk.java.net
-          release: 19
-      - name: Build with Maven
-        run: mvn javafx:jlink
-      - uses: actions/upload-artifact@v2
-        with:
           name: macosxrt
           path: /Users/runner/work/fxgl-runtime/fxgl-runtime/target/app.zip
           retention-days: 1
