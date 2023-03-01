@@ -19,3 +19,4 @@ macosxrt/bin/java --module-path xtrike-1.0.jar -m com.whitewoodcity.xtrike/com.w
 then ohlala you will see the nice game or javafx interface you built using FXGL, JavaFX, Kotlin etc.   
     
 Note: Make sure the dependencies in pom.xml and module-info.java are the same as your game project.    
+
