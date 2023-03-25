@@ -21,7 +21,7 @@ jobs:
         uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
-          release: 19
+          release: 20
 #         uses: graalvm/setup-graalvm@v1
 #         with:
 #           version: 'latest'
@@ -44,7 +44,7 @@ jobs:
         uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
-          release: 19
+          release: 20
 #         uses: graalvm/setup-graalvm@v1
 #         with:
 #           version: 'latest'
@@ -67,7 +67,7 @@ jobs:
         uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
-          release: 19
+          release: 20
 #         uses: graalvm/setup-graalvm@v1
 #         with:
 #           version: 'latest'
