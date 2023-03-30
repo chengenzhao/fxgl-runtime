@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.version>20</maven.compiler.version>
-        <fxgl.version>17+dev-SNAPSHOT</fxgl.version>
+        <fxgl.version>17.3</fxgl.version>
         <compiler.plugin.version>3.11.0</compiler.plugin.version>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
     </properties>
@@ -60,10 +60,10 @@
         </plugins>
     </build>
 
-    <repositories>
-        <repository>
-            <id>oss.sonatype.org-snapshot</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>oss.sonatype.org-snapshot</id>-->
+<!--            <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 </project>
