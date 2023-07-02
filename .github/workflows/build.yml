@@ -43,14 +43,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Set up JDK
-        uses: oracle-actions/setup-java@v1
+#        uses: oracle-actions/setup-java@v1
+#        with:
+#          website: jdk.java.net
+#          release: 20
+        uses: graalvm/setup-graalvm@v1
         with:
-          website: jdk.java.net
-          release: 20
-#         uses: graalvm/setup-graalvm@v1
-#         with:
-#           version: 'latest'
-#           java-version: '19'
+          version: 'latest'
+          java-version: '20.0.1'
+          distribution: 'graalvm-community'
+          github-token: ${{ secrets. GITHUB_TOKEN }}
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v3
@@ -66,14 +68,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Set up JDK
-        uses: oracle-actions/setup-java@v1
+#        uses: oracle-actions/setup-java@v1
+#        with:
+#          website: jdk.java.net
+#          release: 20
+        uses: graalvm/setup-graalvm@v1
         with:
-          website: jdk.java.net
-          release: 20
-#         uses: graalvm/setup-graalvm@v1
-#         with:
-#           version: 'latest'
-#           java-version: '19'
+          version: 'latest'
+          java-version: '20.0.1'
+          distribution: 'graalvm-community'
+          github-token: ${{ secrets. GITHUB_TOKEN }}
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v3
