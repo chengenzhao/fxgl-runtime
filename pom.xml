@@ -12,9 +12,10 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.version>21</maven.compiler.version>
-        <fxgl.version>17.3</fxgl.version>
         <compiler.plugin.version>3.11.0</compiler.plugin.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <fxgl.version>17.3</fxgl.version>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
         <atlantafx.version>2.0.1</atlantafx.version>
         <litfx.version>0.1.3</litfx.version>
@@ -45,8 +46,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${compiler.plugin.version}</version>
                 <configuration>
-                    <source>${maven.compiler.version}</source>
-                    <target>${maven.compiler.version}</target>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
             <plugin>
