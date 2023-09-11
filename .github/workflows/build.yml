@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK
-        uses: oracle-actions/setup-java@v3
+        uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
           release: 21
@@ -30,7 +30,7 @@ jobs:
 #          github-token: ${{ secrets. GITHUB_TOKEN }}
       - name: Build with Maven
         run: mvn javafx:jlink
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v3
         with:
           name: linuxrt
           path: /home/runner/work/fxgl-runtime/fxgl-runtime/target/app.zip
@@ -43,7 +43,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK
-        uses: oracle-actions/setup-java@v3
+        uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
           release: 21
@@ -55,7 +55,7 @@ jobs:
 #          github-token: ${{ secrets. GITHUB_TOKEN }}
       - name: Build with Maven
         run: mvn javafx:jlink
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v3
         with:
           name: macosxrt
           path: /Users/runner/work/fxgl-runtime/fxgl-runtime/target/app.zip
@@ -68,7 +68,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK
-        uses: oracle-actions/setup-java@v3
+        uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
           release: 21
@@ -80,7 +80,7 @@ jobs:
 #          github-token: ${{ secrets. GITHUB_TOKEN }}
       - name: Build with Maven
         run: mvn javafx:jlink
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v3
         with:
           name: windowsrt
           path: D:\a\fxgl-runtime\fxgl-runtime\target\app.zip
