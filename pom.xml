@@ -16,28 +16,10 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
-<!--        <fxgl.version>17.3</fxgl.version>-->
-<!--        <atlantafx.version>2.0.1</atlantafx.version>-->
-<!--        <litfx.version>0.1.3</litfx.version>-->
         <fxcity.version>0.0.9</fxcity.version>
     </properties>
 
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>com.github.almasb</groupId>-->
-<!--            <artifactId>fxgl</artifactId>-->
-<!--            <version>${fxgl.version}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>io.github.mkpaz</groupId>-->
-<!--            <artifactId>atlantafx-base</artifactId>-->
-<!--            <version>${atlantafx.version}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.github.birdasaur.litfx</groupId>-->
-<!--            <artifactId>litfx-core</artifactId>-->
-<!--            <version>${litfx.version}</version>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>io.github.chengenzhao</groupId>
             <artifactId>fxcity</artifactId>
@@ -78,11 +60,4 @@
             </plugin>
         </plugins>
     </build>
-
-<!--    <repositories>-->
-<!--        <repository>-->
-<!--            <id>oss.sonatype.org-snapshot</id>-->
-<!--            <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
-<!--        </repository>-->
-<!--    </repositories>-->
 </project>
