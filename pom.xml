@@ -19,7 +19,7 @@
 <!--        <fxgl.version>17.3</fxgl.version>-->
 <!--        <atlantafx.version>2.0.1</atlantafx.version>-->
 <!--        <litfx.version>0.1.3</litfx.version>-->
-        <fxcity.version>0.0.6</fxcity.version>
+        <fxcity.version>0.0.8</fxcity.version>
     </properties>
 
     <dependencies>
