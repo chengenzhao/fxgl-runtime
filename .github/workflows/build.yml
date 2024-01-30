@@ -22,7 +22,7 @@ jobs:
         # with:
         #   website: jdk.java.net
         #   release: 21
-        uses: graalvm/setup-graalvm@v1.1.6
+        uses: graalvm/setup-graalvm@v1
         with:
          version: 'latest'
          java-version: '21'
@@ -43,7 +43,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK
-       # uses: oracle-actions/setup-java@v1.1.6
+       # uses: oracle-actions/setup-java@v1
        # with:
        #   website: jdk.java.net
        #   release: 21
@@ -72,7 +72,7 @@ jobs:
         # with:
         #   website: jdk.java.net
         #   release: 21
-        uses: graalvm/setup-graalvm@v1.1.6
+        uses: graalvm/setup-graalvm@v1
         with:
          version: 'latest'
          java-version: '21'
