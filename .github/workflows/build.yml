@@ -18,16 +18,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK
-        # uses: oracle-actions/setup-java@v1
-        # with:
-        #   website: jdk.java.net
-        #   release: 21
-        uses: graalvm/setup-graalvm@v1
+        uses: oracle-actions/setup-java@v1
         with:
-         version: 'latest'
-         java-version: '21'
-         distribution: 'graalvm-community'
-         github-token: ${{ secrets. GITHUB_TOKEN }}
+          website: jdk.java.net
+          release: 22
+        # uses: graalvm/setup-graalvm@v1
+        # with:
+        #  version: 'latest'
+        #  java-version: '21'
+        #  distribution: 'graalvm-community'
+        #  github-token: ${{ secrets. GITHUB_TOKEN }}
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v4
