@@ -6,17 +6,17 @@
 
     <groupId>com.example</groupId>
     <artifactId>fxgl-runtime</artifactId>
-    <version>1.0</version>
+    <version>21.1.7</version>
     <name>fxgl-runtime</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <compiler.plugin.version>3.11.0</compiler.plugin.version>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <compiler.plugin.version>3.12.1</compiler.plugin.version>
+        <maven.compiler.source>22</maven.compiler.source>
+        <maven.compiler.target>22</maven.compiler.target>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
-        <fxcity.version>0.1.6</fxcity.version>
+        <fxcity.version>0.1.7</fxcity.version>
     </properties>
 
     <dependencies>
