@@ -6,17 +6,17 @@
 
     <groupId>com.example</groupId>
     <artifactId>fxgl-runtime</artifactId>
-    <version>22</version>
+    <version>23</version>
     <name>fxgl-runtime</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compiler.plugin.version>3.12.1</compiler.plugin.version>
-        <maven.compiler.source>22</maven.compiler.source>
-        <maven.compiler.target>22</maven.compiler.target>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
-        <fxcity.version>0.2.2</fxcity.version>
+        <fxcity.version>0.2.3</fxcity.version>
     </properties>
 
     <dependencies>
@@ -25,21 +25,6 @@
             <artifactId>fxcity</artifactId>
             <version>${fxcity.version}</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>io.vproxy</groupId>-->
-<!--            <artifactId>vfx</artifactId>-->
-<!--            <version>1.3.5</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.openjfx</groupId>-->
-<!--            <artifactId>javafx-swing</artifactId>-->
-<!--            <version>21.0.1</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>io.vproxy</groupId>-->
-<!--            <artifactId>vjson</artifactId>-->
-<!--            <version>1.5.5-jdk9</version>-->
-<!--        </dependency>-->
     </dependencies>
 
     <build>
