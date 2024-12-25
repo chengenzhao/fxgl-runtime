@@ -26,6 +26,7 @@ jobs:
         with:
          java-version: '23'
          distribution: 'graalvm'
+         check-latest: true
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v4
@@ -49,6 +50,7 @@ jobs:
         with:
           java-version: '23'
           distribution: 'graalvm'
+          check-latest: true
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v4
@@ -72,6 +74,7 @@ jobs:
         with:
           java-version: '23'
           distribution: 'graalvm'
+          check-latest: true
       - name: Build with Maven
         run: mvn javafx:jlink
       - uses: actions/upload-artifact@v4
