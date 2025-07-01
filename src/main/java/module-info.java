@@ -1,7 +1,7 @@
-module com.whitewoocity.fxglruntime {
+open module com.whitewoocity.fxglruntime {
   requires com.almasb.fxgl.all;
-  requires atlantafx.base;
+  requires com.fasterxml.jackson.databind;
   requires com.whitewoodcity.fxcity;
-//  requires io.vproxy.vfx;
-//  requires java.logging;
+  requires javafx.media;
+  requires atlantafx.base;
 }
