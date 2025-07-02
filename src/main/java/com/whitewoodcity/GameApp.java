@@ -3,10 +3,8 @@ package com.whitewoodcity;
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
 import com.almasb.fxgl.dsl.FXGL;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-
-import java.io.File;
+import javafx.animation.Transition;
+import javafx.util.Duration;
 
 public class GameApp extends GameApplication {
 
@@ -17,19 +15,16 @@ public class GameApp extends GameApplication {
   protected void initGame(){
     FXGL.getAssetLoader().clearCache();
 
-    try {
+    var bgm = FXGL.loopBGM("maou_game_theme01.mp3");
+    bgm.getAudio().setVolume(0);
+    new Transition() {
+      {
+        setCycleDuration(Duration.seconds(1));
+      }
 
-//      String path = GameApp.class.getProtectionDomain().getCodeSource().getLocation().getPath();
-//      String decodedPath = URLDecoder.decode(path, "UTF-8");
-//      System.out.println(decodedPath);
-
-      var path = new File("").getAbsolutePath();
-
-      Media audio = new Media(new File(path+File.separator+"music"+File.separator+"maou_game_theme01.mp3").toURI().toURL().toExternalForm());
-      var mediaPlayer = new MediaPlayer(audio);
-      mediaPlayer.play();
-    }catch (Exception e){
-      e.printStackTrace();
-    }
+      protected void interpolate(double frac) {
+        bgm.getAudio().setVolume(FXGL.getSettings().getGlobalMusicVolume() * frac);
+      }
+    }.play();
   }
 }
