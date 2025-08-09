@@ -10,7 +10,7 @@ public class Main extends Application {
     stage.show();
   }
 
-  public static void main(String[] args) {
+  void main(String[] args) {
     Main.launch(Main.class, args);
   }
 }
