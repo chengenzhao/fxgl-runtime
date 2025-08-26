@@ -1,11 +1,17 @@
 package com.whitewoodcity;
 
 import module javafx.controls;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Main extends Application {
   @Override
   public void start(Stage stage) {
-    stage.setScene(new Scene(new Group(new Label("Hello World~!"))));
+    var rect = new Rectangle(0,0,200,100);
+    var rect1 = new Rectangle(0,0,200,100);
+    stage.setScene(new Scene(new Group(new HBox(rect, rect1))));
+
+    rect.setFill(Color.web("#ff0000aa"));
+    rect1.setFill(Color.web("#ff0000ff"));
 
     stage.show();
   }
