@@ -6,7 +6,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>fxgl-runtime</artifactId>
-    <version>24</version>
+    <version>25</version>
     <name>fxgl-runtime</name>
 
     <properties>
