@@ -16,7 +16,7 @@
         <maven.compiler.source>25</maven.compiler.source>
         <maven.compiler.target>25</maven.compiler.target>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
-        <fxcity.version>0.9.1</fxcity.version>
+        <fxcity.version>0.9.3</fxcity.version>
     </properties>
 
     <dependencies>
