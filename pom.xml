@@ -16,6 +16,7 @@
         <maven.compiler.source>25</maven.compiler.source>
         <maven.compiler.target>25</maven.compiler.target>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
+        <guava.version>33.5.0-jre</guava.version>
         <fxcity.version>0.9.7</fxcity.version>
     </properties>
 
@@ -24,6 +25,11 @@
             <groupId>io.github.chengenzhao</groupId>
             <artifactId>fxcity</artifactId>
             <version>${fxcity.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
     </dependencies>
 
