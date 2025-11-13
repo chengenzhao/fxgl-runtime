@@ -17,7 +17,8 @@
         <maven.compiler.target>25</maven.compiler.target>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
         <guava.version>33.5.0-jre</guava.version>
-        <fxcity.version>0.9.7</fxcity.version>
+        <fxcity.version>0.9.8</fxcity.version>
+        <vertx.version>5.0.5</vertx.version>
     </properties>
 
     <dependencies>
@@ -30,6 +31,11 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-core</artifactId>
+            <version>${vertx.version}</version>
         </dependency>
     </dependencies>
 
