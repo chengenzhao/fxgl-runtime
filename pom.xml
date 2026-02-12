@@ -17,7 +17,7 @@
         <maven.compiler.target>25</maven.compiler.target>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
         <guava.version>33.5.0-jre</guava.version>
-        <fxcity.version>0.9.15</fxcity.version>
+        <fxcity.version>0.9.17</fxcity.version>
         <vertx.version>5.0.7</vertx.version>
     </properties>
 
