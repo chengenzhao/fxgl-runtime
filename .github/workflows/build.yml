@@ -21,10 +21,10 @@ jobs:
         uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
-          release: 25
+          release: 26
 #        uses: actions/setup-java@v4
 #        with:
-#         java-version: '25'
+#         java-version: '26'
 #         distribution: 'graalvm'
 #         check-latest: true
       - name: Build with Maven
@@ -45,10 +45,10 @@ jobs:
         uses: oracle-actions/setup-java@v1
         with:
          website: jdk.java.net
-         release: 25
+         release: 26
 #        uses: actions/setup-java@v4
 #        with:
-#          java-version: '25'
+#          java-version: '26'
 #          distribution: 'graalvm'
 #          check-latest: true
       - name: Build with Maven
@@ -69,10 +69,10 @@ jobs:
         uses: oracle-actions/setup-java@v1
         with:
           website: jdk.java.net
-          release: 25
+          release: 26
 #        uses: actions/setup-java@v4
 #        with:
-#          java-version: '25'
+#          java-version: '26'
 #          distribution: 'graalvm'
 #          check-latest: true
       - name: Build with Maven
