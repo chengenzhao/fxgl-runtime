@@ -5,4 +5,6 @@ open module com.whitewoocity.fxglruntime {
   requires javafx.media;
   requires atlantafx.base;
   requires com.google.common;
+  requires io.vertx.core;
+  requires com.whitewoodcity.xtrikeresources;
 }
