@@ -18,7 +18,7 @@
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
         <guava.version>33.5.0-jre</guava.version>
         <fxcity.version>1.1.4</fxcity.version>
-        <vertx.version>5.0.10</vertx.version>
+        <vertx.version>5.0.11</vertx.version>
         <xtrike.resources.version>0.7.1</xtrike.resources.version>
     </properties>
 
