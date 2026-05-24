@@ -1,11 +1,6 @@
 package com.whitewoodcity;
 
 import module javafx.controls;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.whitewoodcity.fxgl.vectorview.svgpathcommand.*;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main extends Application {
   @Override
