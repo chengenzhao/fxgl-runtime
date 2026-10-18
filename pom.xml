@@ -19,7 +19,7 @@
         <guava.version>33.7.1-jre</guava.version>
         <fxcity.version>7.3.4</fxcity.version>
         <vertx.version>5.2.1</vertx.version>
-        <xtrike.resources.version>2.1.14</xtrike.resources.version>
+        <xtrike.resources.version>2.1.15</xtrike.resources.version>
     </properties>
 
     <dependencies>
