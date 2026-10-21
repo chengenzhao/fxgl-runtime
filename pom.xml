@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <compiler.plugin.version>3.14.0</compiler.plugin.version>
+        <compiler.plugin.version>3.16.0</compiler.plugin.version>
         <maven.compiler.source>27</maven.compiler.source>
         <maven.compiler.target>27</maven.compiler.target>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
