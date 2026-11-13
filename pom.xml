@@ -16,8 +16,8 @@
         <maven.compiler.source>27</maven.compiler.source>
         <maven.compiler.target>27</maven.compiler.target>
         <javafx.plugin.version>0.0.8</javafx.plugin.version>
-        <guava.version>33.7.2-jre</guava.version>
-        <fxcity.version>7.6.3</fxcity.version>
+        <guava.version>33.8.0-jre</guava.version>
+        <fxcity.version>7.6.4</fxcity.version>
         <vertx.version>5.2.3</vertx.version>
         <xtrike.resources.version>3.0.0</xtrike.resources.version>
     </properties>
